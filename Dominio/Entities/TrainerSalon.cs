@@ -7,7 +7,7 @@ namespace Dominio.Entities;
 public class TrainerSalon
 {
     public string IdPersonaFk { get; set; }
-    public Persona Persona { get; set; }
+    public Persona Personas { get; set; }
     public int IdSalonFk { get; set; }
-    public Salon Salon { get; set; }
+    public Salon Salones { get; set; }
 }

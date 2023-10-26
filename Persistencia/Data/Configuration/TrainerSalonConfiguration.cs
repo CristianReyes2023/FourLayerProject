@@ -13,6 +13,9 @@ public class TrainerSalonConfiguration : IEntityTypeConfiguration<TrainerSalon>
     {
         builder.ToTable("trainersalon");
 
-        builder.HasKey(x=> new {x.IdPersonaFk,x.IdSalonFk});
+        builder.HasKey(x => new { x.IdPersonaFk, x.IdSalonFk });
+
+        builder.HasOne(x => x.Personas).WithMany(x => x.TrainerSalones).HasForeignKey(x => x.IdPersonaFk);
+        builder.HasOne(x => x.Salones).WithMany(x => x.TrainerSalones).HasForeignKey(x => x.IdSalonFk);
     }
 }
