@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Aplicacion\\Aplicacion.csproj": {}
+    "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Aplicacion\\Aplicacion.csproj": {
+    "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\APM02-49\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Aplicacion\\obj\\",
+        "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\fojc\\.nuget\\packages\\",
+        "outputPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-49\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fojc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\Dominio.csproj"
+              "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj": {
+                "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Persistencia\\Persistencia.csproj"
+              "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -64,17 +64,17 @@
         }
       }
     },
-    "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\Dominio.csproj": {
+    "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\APM02-49\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\obj\\",
+        "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\fojc\\.nuget\\packages\\",
+        "outputPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-49\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fojc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -131,17 +131,17 @@
         }
       }
     },
-    "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Persistencia\\Persistencia.csproj": {
+    "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\APM02-49\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Persistencia\\obj\\",
+        "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\fojc\\.nuget\\packages\\",
+        "outputPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-49\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fojc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -153,8 +153,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\incidencias\\Dominio\\Dominio.csproj"
+              "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj": {
+                "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj"
               }
             }
           }
