@@ -1,3 +1,4 @@
+using System.Reflection;
 using ApiIncidencias.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Persistencia.Data;
@@ -11,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 
 builder.Services.AddDbContext<ApiIncidenciasContext>(optionsBuilder =>
 {
