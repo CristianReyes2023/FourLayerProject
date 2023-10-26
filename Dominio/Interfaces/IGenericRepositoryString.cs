@@ -5,11 +5,10 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Dominio.Entities;
 
-namespace Dominio.Interfaces
+namespace Dominio.Interfaces;
+public interface IGenericRepositoryString<T> where T : BaseEntityString
 {
-    public interface IGenericRepository<T> where T : BaseEntity
-    {
-        Task<T> GetByIdAsync(int Id);
+        Task<T> GetByIdAsync(string Id);
         Task<IEnumerable<T>> GetAllAsync();
         IEnumerable<T> Find(Expression<Func<T, bool>> expression);
         // Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search);
@@ -18,5 +17,4 @@ namespace Dominio.Interfaces
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);
         void Update(T entity);
-    }
 }

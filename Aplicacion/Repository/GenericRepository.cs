@@ -1,9 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Dominio.Entities;
+using Dominio.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Persistencia.Data;
 
-namespace Aplicacion.Repositories;
+namespace Aplicacion.Repository;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 {
@@ -68,4 +73,5 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
             .ToListAsync();
         return (totalRegistros, registros);
     }
+
 }

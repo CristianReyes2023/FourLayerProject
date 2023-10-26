@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BqQFBJkihIpxGjhVPqa5Gnsbb8YgXHXkXosb0RNGudHQcTbncV3CPBUlAlZYKO3rZbDkccLOuyy+NAH985iYZg==",
+  "dgSpecHash": "bWX4k44IL8SJnbICgJePmZAD2KMFcxWgiPsSBYRUic23r9jmzxvauPiLRakSVFx+lgFm5RIIV+/Q3dKVHei2zQ==",
   "success": true,
   "projectFilePath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fojc\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",

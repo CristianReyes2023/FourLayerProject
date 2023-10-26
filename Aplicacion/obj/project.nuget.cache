@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i8Hgje0/h9Jt7olMRbeoosZFFYgb45SDczBxijOcGhKLDZu2dE2lWtiAoYs3pO0Gg3oucuRYayx/k06f5IUwPg==",
+  "dgSpecHash": "oRa0yowhfQ0Nel+fHQLH/y3CKGdkhhgBakAmd1lbckCmucMl+pw1xdvGVcPfNhh+8D9rU5v1lpcAXWZ8lhBpgQ==",
   "success": true,
   "projectFilePath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fojc\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "CjEX0avVu4/dbs8lwWr8jdu+gVlOsKNN/z4lUgWiWHmPXqJOWCoaOAfz3rbcFbaQDZ47xOl397aIqV3KJpYPZQ==",
+  "dgSpecHash": "ACu2FsrolqMduLdY/nn62/06uyjkeiH1kXF6cfHn9WW3dJG5E0Ea1X+Ck3V73JW9CuZGcNh7wTa/JTyptt8ukw==",
   "success": true,
   "projectFilePath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\ApiIncidencias\\ApiIncidencias.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fojc\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\fojc\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\fojc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
