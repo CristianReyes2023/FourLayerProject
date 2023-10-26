@@ -18,7 +18,6 @@ public class PersonaConfiguration : IEntityTypeConfiguration<Persona>
 
         builder.Property(x => x.NombrePersona).IsRequired().HasMaxLength(50);
         builder.Property(x => x.ApellidoPersona).IsRequired().HasMaxLength(50);
-        builder.Property(x=>x.IdNumeroPersona).IsRequired().HasMaxLength(50);
 
         builder.HasOne(x => x.Genero).WithMany(x=>x.Personas).HasForeignKey(x => x.IdGeneroFk);
         builder.HasOne(x => x.Ciudad).WithMany(x=>x.Personas).HasForeignKey(x => x.IdCiudadFk);

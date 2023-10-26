@@ -13,7 +13,6 @@ public class TrainerSalonConfiguration : IEntityTypeConfiguration<TrainerSalon>
     {
         builder.ToTable("trainersalon");
 
-        builder.HasKey(x=>x.Id);
-        builder.Property(x=>x.Id).HasMaxLength(3);
+        builder.HasKey(x=> new {x.IdPersonaFk,x.IdSalonFk});
     }
 }

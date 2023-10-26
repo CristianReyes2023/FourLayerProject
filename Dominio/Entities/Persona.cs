@@ -4,14 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Dominio.Entities;
-public class Persona : BaseEntity
+public class Persona : BaseEntityString
 {
-    public string IdNumeroPersona { get; set; }
     public string NombrePersona { get; set; }
     public string ApellidoPersona { get; set; }
     public int IdGeneroFk { get; set; }
     public Genero Genero { get; set; }
-    public int IdCiudadFk { get; set; }
+    public string IdCiudadFk { get; set; }
     public Ciudad Ciudad { get; set; }
     public int IdTipoPerFk { get; set; }
     public TipoPersona TipoPersona { get; set; }

@@ -14,7 +14,7 @@ public class CiudadConfiguration : IEntityTypeConfiguration<Ciudad>
         builder.ToTable("ciudad");
 
         builder.HasKey(x=>x.Id);
-        builder.Property(x=>x.Id);
+        builder.Property(x=>x.Id).HasMaxLength(3);
 
         builder.Property(x=>x.NombreCiudad).IsRequired().HasMaxLength(50);
 

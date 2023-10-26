@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Dominio.Entities;
-public class TrainerSalon : BaseEntity
+public class TrainerSalon
 {
     public string IdPersonaFk { get; set; }
     public Persona Persona { get; set; }
