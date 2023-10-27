@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj": {}
+    "e:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
     "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj": {
@@ -71,14 +71,14 @@
         }
       }
     },
-    "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj": {
+    "e:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "e:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj",
+        "projectPath": "e:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\fojc\\.nuget\\packages\\",
-        "outputPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\obj\\",
+        "outputPath": "e:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fojc\\AppData\\Roaming\\NuGet\\NuGet.Config"

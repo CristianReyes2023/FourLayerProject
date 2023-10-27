@@ -10,6 +10,6 @@ public class PersonaDto
     public string NombrePersona { get; set; }
     public string ApellidoPersona { get; set; }
     public int IdGeneroFk { get; set; }
-    public string IdCiudadFk { get; set; }
+    public int IdCiudadFk { get; set; }
     public int IdTipoPerFk { get; set; }
 }

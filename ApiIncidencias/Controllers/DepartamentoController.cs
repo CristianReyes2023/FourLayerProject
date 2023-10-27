@@ -14,63 +14,63 @@ namespace ApiIncidencias.Controllers;
 [ApiVersion("1.0")]//Aplicacion de las anotaciones de version antes del inicio de la declaracion de clase
 [ApiVersion("1.1")]
 
-public class PaisController : BaseApiController
+public class DepartamentoController : BaseApiController
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
 
-    public PaisController(IUnitOfWork unitOfWork, IMapper mapper)
+    public DepartamentoController(IUnitOfWork unitOfWork, IMapper mapper)
     {
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
 
-    // [HttpGet]
-    // [ProducesResponseType(StatusCodes.Status200OK)]
-    // [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    // public async Task<ActionResult<IEnumerable<PaisDto>>> Get()
-    // {
-    //     var results = await _unitOfWork.Paises.GetAllAsync();
-    //     return _mapper.Map<List<PaisDto>>(results);
-    // }
+    [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<IEnumerable<DepartamentoDto>>> Get()
+    {
+        var results = await _unitOfWork.Departamentos.GetAllAsync();
+        return _mapper.Map<List<DepartamentoDto>>(results);
+    }
     // [HttpGet]
     // [MapToApiVersion("1.0")]//Permite especificar a que version pertenece el endpoint
     // [ProducesResponseType(StatusCodes.Status200OK)]
     // [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    // public async Task<ActionResult<IEnumerable<PaisDto>>> Get()
+    // public async Task<ActionResult<IEnumerable<DepartamentoDto>>> Get()
     // {
-    //     var results = await _unitOfWork.Paises.GetAllAsync();
-    //     return _mapper.Map<List<PaisDto>>(results);
+    //     var results = await _unitOfWork.Departamentoes.GetAllAsync();
+    //     return _mapper.Map<List<DepartamentoDto>>(results);
     // }
-    [HttpGet]
-    [MapToApiVersion("1.1")]//Permite especificar a que version pertenece el endpoint
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<IEnumerable<PaisxDepDto>>> Get11()
-    {
-        var results = await _unitOfWork.Paises.GetAllAsync();
-        return _mapper.Map<List<PaisxDepDto>>(results);
-    }
+    // [HttpGet]
+    // [MapToApiVersion("1.1")]//Permite especificar a que version pertenece el endpoint
+    // [ProducesResponseType(StatusCodes.Status200OK)]
+    // [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    // public async Task<ActionResult<IEnumerable<DepartamentoDto>>> Get()
+    // {
+    //     var results = await _unitOfWork.Departamentos.GetAllAsync();
+    //     return _mapper.Map<List<DepartamentoDto>>(results);
+    // }
     [HttpGet("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<PaisDto>> Get(int id)
+    public async Task<ActionResult<DepartamentoDto>> Get(int id)
     {
-        var result = await _unitOfWork.Paises.GetByIdAsync(id);
+        var result = await _unitOfWork.Departamentos.GetByIdAsync(id);
         if (result == null)
         {
             return NotFound();
         }
-        return _mapper.Map<PaisDto>(result);
+        return _mapper.Map<DepartamentoDto>(result);
     }
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<PaisDto>> Post(PaisDto resultDto)
+    public async Task<ActionResult<DepartamentoDto>> Post(DepartamentoDto resultDto)
     {
-        var result = _mapper.Map<Pais>(resultDto);
-        _unitOfWork.Paises.Add(result);
+        var result = _mapper.Map<Departamento>(resultDto);
+        _unitOfWork.Departamentos.Add(result);
         await _unitOfWork.SaveAsync();
         if (result == null)
         {
@@ -83,39 +83,39 @@ public class PaisController : BaseApiController
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<PaisDto>> Put(int id, [FromBody] PaisDto PaisDto)
+    public async Task<ActionResult<DepartamentoDto>> Put(int id, [FromBody] DepartamentoDto DepartamentoDto)
     {
-        var result = await _unitOfWork.Paises.GetByIdAsync(id);
+        var result = await _unitOfWork.Departamentos.GetByIdAsync(id);
         if (result == null)
         {
             return NotFound();
         }
-        if (PaisDto.Id == 0)
+        if (DepartamentoDto.Id == 0)
         {
-            PaisDto.Id = id;
+            DepartamentoDto.Id = id;
         }
-        if (PaisDto.Id != id)
+        if (DepartamentoDto.Id != id)
         {
             return BadRequest();
         }
-        // Update the properties of the existing entity with values from PaisDto
-        _mapper.Map(PaisDto, result);
+        // Update the properties of the existing entity with values from DepartamentoDto
+        _mapper.Map(DepartamentoDto, result);
         // The context is already tracking result, so no need to attach it
         await _unitOfWork.SaveAsync();
         // Return the updated entity
-        return _mapper.Map<PaisDto>(result);
+        return _mapper.Map<DepartamentoDto>(result);
     }
     [HttpDelete("{id}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Delete(int id)
     {
-        var result = await _unitOfWork.Paises.GetByIdAsync(id);
+        var result = await _unitOfWork.Departamentos.GetByIdAsync(id);
         if (result == null)
         {
             return NotFound();
         }
-        _unitOfWork.Paises.Remove(result);
+        _unitOfWork.Departamentos.Remove(result);
         await _unitOfWork.SaveAsync();
         return NoContent();
     }

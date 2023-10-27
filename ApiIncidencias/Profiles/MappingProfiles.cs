@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApiIncidencias.Controllers;
 using ApiIncidencias.Dtos;
 using AutoMapper;
 using Dominio.Entities;
@@ -20,5 +21,6 @@ public class MappingProfiles : Profile
         CreateMap<Persona,PersonaDto>().ReverseMap();
         CreateMap<Salon,SalonDto>().ReverseMap();
         CreateMap<TipoPersona,TipoPersonaDto>().ReverseMap();
+        CreateMap<Pais,PaisxDepDto>().ReverseMap();
     }
 }

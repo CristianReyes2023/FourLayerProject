@@ -6,6 +6,7 @@ using Aplicacion.UnitOfWork;
 using AspNetCoreRateLimit;
 using Dominio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
 
 namespace ApiIncidencias.Extensions;
 public static class ApplicationServiceExtension
@@ -51,6 +52,9 @@ public static class ApplicationServiceExtension
         {
             options.DefaultApiVersion = new ApiVersion(1,0);
             options.AssumeDefaultVersionWhenUnspecified =true;
+            options.ApiVersionReader = new QueryStringApiVersionReader("ver");//Variable que permite especificar la version a utilizar en la peticion
         });
     }
+    //Versionado con Query String
+
 }
