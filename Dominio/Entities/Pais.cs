@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Dominio.Entities;
-public class Pais : BaseEntityString
+public class Pais : BaseEntity
 {
     public string NombrePais { get; set; }
     public ICollection<Departamento> Departamentos { get; set; }

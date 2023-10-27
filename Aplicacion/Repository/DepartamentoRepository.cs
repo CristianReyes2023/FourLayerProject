@@ -8,7 +8,7 @@ using Persistencia.Data;
 
 namespace Aplicacion.Repository
 {
-    public class DepartamentoRepository : GenericRepositoryString<Departamento>, IDepartamentoRepository
+    public class DepartamentoRepository : GenericRepository<Departamento>, IDepartamentoRepository
     {
         private readonly ApiIncidenciasContext context;
 

@@ -14,8 +14,7 @@ public class PaisConfiguration : IEntityTypeConfiguration<Pais>
         builder.ToTable("pais");
 
         builder.HasKey(p => p.Id);
-        builder.Property(p => p.Id).HasMaxLength(3);
-
+        builder.Property(p => p.Id);
         builder.Property(x => x.NombrePais).IsRequired().HasMaxLength(50);
     }
 }

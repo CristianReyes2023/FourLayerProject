@@ -6,7 +6,7 @@ using Dominio.Entities;
 
 namespace Dominio.Interfaces
 {
-    public interface IDepartamentoRepository : IGenericRepositoryString<Departamento>
+    public interface IDepartamentoRepository : IGenericRepository<Departamento>
     {
         
     }

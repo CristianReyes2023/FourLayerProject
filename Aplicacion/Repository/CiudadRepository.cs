@@ -9,7 +9,7 @@ using Persistencia.Data;
 
 namespace Aplicacion.Repository
 {
-    public class CiudadRepository : GenericRepositoryString<Ciudad>, ICiudadRepository
+    public class CiudadRepository : GenericRepository<Ciudad>, ICiudadRepository
     {
         private readonly ApiIncidenciasContext _context;
 
