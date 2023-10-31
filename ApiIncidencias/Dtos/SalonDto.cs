@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace ApiIncidencias.Dtos;
 public class SalonDto
 {
-    public string Id { get; set; }
+    public int Id { get; set; }
     public string NombreSalon { get; set; }
     public int Capacidad { get; set; }
 }
