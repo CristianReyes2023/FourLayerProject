@@ -5045,19 +5045,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APM02-49\\.nuget\\packages\\": {}
+    "C:\\Users\\fojc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\APM02-49\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APM02-49\\Documents\\CristianReyes\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\obj\\",
+      "projectPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\fojc\\.nuget\\packages\\",
+      "outputPath": "E:\\CAMPUSLAND\\.NET\\proyectos.NET\\FourLayerProject\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APM02-49\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fojc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

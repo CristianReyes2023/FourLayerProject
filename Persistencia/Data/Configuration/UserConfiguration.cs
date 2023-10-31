@@ -20,6 +20,16 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(x=>x.Username).IsRequired().HasMaxLength(50);
         builder.Property(x=>x.Email).IsRequired().HasMaxLength(225);
         builder.Property(x=>x.Password).IsRequired().HasMaxLength(100);
+
+        builder.HasMany(e => e.Rols).WithMany(c => c.Users).UsingEntity<UserRol>(
+            y => y.HasOne(e => e.Rols).WithMany(e => e.UserRols).HasForeignKey(c => c.IdRolFk),
+            y => y.HasOne(e => e.Users).WithMany(e => e.UserRols).HasForeignKey(c => c.IdUserFk),
+            y =>
+            {
+                y.ToTable("userrol");
+                y.HasKey(z => new { z.IdUserFk, z.IdRolFk });
+            }
+        );
         
     }
 }

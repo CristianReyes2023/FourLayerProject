@@ -17,5 +17,6 @@ public class RolConfiguration : IEntityTypeConfiguration<Rol>
         builder.Property(e => e.Id);
         
         builder.Property(x=>x.Name).IsRequired().HasMaxLength(50);
+        
     }
 }

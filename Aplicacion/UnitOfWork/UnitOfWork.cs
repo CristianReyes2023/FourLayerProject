@@ -11,15 +11,19 @@ namespace Aplicacion.UnitOfWork;
 public class UnitOfWork : IUnitOfWork, IDisposable
 {
 
-    private CiudadRepository _ciudades { get; set; }
-    private DepartamentoRepository _departamentos { get; set; }
-    private DireccionRepository _direcciones { get; set; }
-    private GeneroRepository _generos { get; set; }
-    private MatriculaRepository _matriculas { get; set; }
-    private PaisRepository _paises { get; set; }
-    private PersonaRepository _personas { get; set; }
-    private SalonRepository _salones { get; set; }
-    private TipoPersonaRepository _tipopersonas { get; set; }
+    private CiudadRepository _ciudades;
+    private DepartamentoRepository _departamentos;
+    private DireccionRepository _direcciones;
+    private GeneroRepository _generos;
+    private MatriculaRepository _matriculas;
+    private PaisRepository _paises;
+    private PersonaRepository _personas;
+    private SalonRepository _salones;
+    private TipoPersonaRepository _tipopersonas;
+    private UserRepository _users;
+    private RolRepository _rols;
+
+
     private readonly ApiIncidenciasContext _context;
 
     public UnitOfWork(ApiIncidenciasContext context)
@@ -123,6 +127,28 @@ public class UnitOfWork : IUnitOfWork, IDisposable
                 _tipopersonas = new TipoPersonaRepository(_context); // Remember putting the base in the repository of this entity
             }
             return _tipopersonas;
+        }
+    }
+    public IRolRepository Rols
+    {
+        get
+        {
+            if (_rols == null)
+            {
+                _rols = new RolRepository(_context); // Remember putting the base in the repository of this entity
+            }
+            return _rols;
+        }
+    }
+    public IUserRepository Users
+    {
+        get
+        {
+            if (_users == null)
+            {
+                _users = new UserRepository(_context); // Remember putting the base in the repository of this entity
+            }
+            return _users;
         }
     }
 

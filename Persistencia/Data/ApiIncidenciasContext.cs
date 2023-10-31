@@ -21,6 +21,9 @@ public class ApiIncidenciasContext : DbContext
     public DbSet<Departamento> Departamentos { get; set; }
     public DbSet<Pais> Paises { get; set; }
     public DbSet<Genero> Generos { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Rol> Rols { get; set; }
+    
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
